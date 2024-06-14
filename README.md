@@ -36,7 +36,8 @@ One of them is not passing, I didn't have time to look into it, but it seems lik
 8. Install dependencies
 9. Run application
 
-Application url is http://laravel.test:4200
+Laravel url is http://laravel.test
+Angular application url is http://laravel.test:4200
 
 These are the commands:
 ```
@@ -45,7 +46,7 @@ php artisan csv:download
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan migrate
 ./vendor/bin/sail artisan db:seed
-cd resources/angular
+cd angular
 npm install
 ng serve
 ```
