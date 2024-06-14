@@ -1,0 +1,24 @@
+<div class="ip-lookup">
+  <h2>IP Address Lookup</h2>
+  <input type="text" placeholder="Lookup IP Address" #query>
+  <button class="primary" type="button" (click)="queryLookup(query.value)">Search</button>
+  <h2>Results</h2>
+  <table *ngIf="response.city">
+    <thead>
+    <tr>
+      <th>City</th>
+      <th>Region</th>
+      <th>Range Start</th>
+      <th>Range End</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>{{ response.city }}</td>
+      <td>{{ response.region }}</td>
+      <td>{{ response.rangeStart }}</td>
+      <td>{{ response.rangeEnd }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

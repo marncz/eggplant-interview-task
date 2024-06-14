@@ -46,7 +46,7 @@ php artisan csv:download
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan migrate
 ./vendor/bin/sail artisan db:seed
-cd angular
+cd resources/angular
 npm install
 ng serve
 ```
