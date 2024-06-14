@@ -37,7 +37,10 @@ One of them is not passing, I didn't have time to look into it, but it seems lik
 9. Run application
 
 Laravel url is http://laravel.test
+
 Angular application url is http://laravel.test:4200
+
+This local domain should not require adding a /etc/hosts value
 
 These are the commands:
 ```
