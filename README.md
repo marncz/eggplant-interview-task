@@ -56,3 +56,4 @@ Given more time I would:
 - Add more Angular tests
 - Add more Feature tests
 - Add better handling to the Angular front-end functionalities
+- Default validation error response code is 422 in Laravel, task mentioned 400, tried to change it but couldn't within the time limit
