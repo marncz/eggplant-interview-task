@@ -8,6 +8,7 @@ import { LookupResponse } from '../lookup_response.interface'
   imports: [CommonModule],
   selector: 'app-query-lookup',
   templateUrl: 'query-lookup.component.html',
+  styleUrls: ['query-lookup.component.scss'],
 })
 export class QueryLookupComponent {
   response: LookupResponse = { city: "", region: "", ip: "", rangeStart: "", rangeEnd: ""};
